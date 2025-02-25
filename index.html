@@ -13,31 +13,40 @@
 </head>
 
 <body>
-    <nav class="navbar bg-body- bg-tertiary ps-4">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand text-danger"><span class="fa-brands fa-instagram fa-xl"></span>Instagram</a>
-            <form class="d-flex" role="search">
-                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                    data-bs-whatever="@mdo">Create new post</button>
-
-                <div class="btn-group ps-4 pe-5">
+            <a class="navbar-brand text-danger mx-4" href="#"> <span
+                    class="fa-brands fa-instagram fa-xl"></span>Instagram</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <button type="button" class="btn btn-success ms-auto mx-3" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Create a new post
+                </button>
+                <div class="dropdown-center">
                     <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        data-bs-auto-close="outside" aria-expanded="false">
-                        <span class="fa-solid fa-gear"></span>
+                        aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
                     </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
-                        <li><a class="dropdown-item" href="#">Accessibility</a></li>
-                        <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+                    <ul class="dropdown-menu dropdown-menu-lg-end">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Action two</a></li>
+                        <li><a class="dropdown-item" href="#">Action three</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
                         <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
                     </ul>
                 </div>
-            </form>
+
+            </div>
         </div>
     </nav>
+
     <nav>
         <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
             <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
@@ -140,9 +149,12 @@
                         <p class="text-body-tertiary">25/02</p>
                     </div>
                     <div class="card-body">
-                        <img src="https://fastly.picsum.photos/id/25/5000/3333.jpg?hmac=yCz9LeSs-i72Ru0YvvpsoECnCTxZjzGde805gWrAHkM" class="d-block w-100" alt="random pic">
+                        <img src="https://fastly.picsum.photos/id/25/5000/3333.jpg?hmac=yCz9LeSs-i72Ru0YvvpsoECnCTxZjzGde805gWrAHkM"
+                            class="d-block w-100" alt="random pic">
                         <h5 class="card-title">450 likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, porro voluptate voluptates id odio vitae, placeat incidunt sed eos molestiae in deserunt eum nisi velit esse error facere nostrum optio?</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, porro
+                            voluptate voluptates id odio vitae, placeat incidunt sed eos molestiae in deserunt eum nisi
+                            velit esse error facere nostrum optio?</p>
                     </div>
                 </div>
                 <div class="card mb-3" style="max-width: 30rem; max-height: 40rem;">
@@ -151,9 +163,12 @@
                         <p class="text-body-tertiary">27/02</p>
                     </div>
                     <div class="card-body">
-                        <img src="https://fastly.picsum.photos/id/48/5000/3333.jpg?hmac=y3_1VDNbhii0vM_FN6wxMlvK27vFefflbUSH06z98so" class="d-block w-100" alt="imagen de un ordenador">
+                        <img src="https://fastly.picsum.photos/id/48/5000/3333.jpg?hmac=y3_1VDNbhii0vM_FN6wxMlvK27vFefflbUSH06z98so"
+                            class="d-block w-100" alt="imagen de un ordenador">
                         <h5 class="card-title">150 likes</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro atque odit praesentium eligendi labore blanditiis aliquid fuga, quas velit vel. Facilis possimus at obcaecati, minus voluptates enim reprehenderit fuga corporis?</p>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro atque odit
+                            praesentium eligendi labore blanditiis aliquid fuga, quas velit vel. Facilis possimus at
+                            obcaecati, minus voluptates enim reprehenderit fuga corporis?</p>
                     </div>
                 </div>
             </div>
